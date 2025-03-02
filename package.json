@@ -2,8 +2,10 @@
   "name": "local-ai-voice-assistant",
   "version": "1.0.0",
   "description": "AI voice assistant with privacy running locally in your computer.",
-  "main": "index.js",
+  "main": "src/main/main.js",
   "scripts": {
+    "start": "electron .",
+    "postinstall": "electron-rebuild",
     "test": "npm run test"
   },
   "repository": {
@@ -23,5 +25,7 @@
   "bugs": {
     "url": "https://github.com/dmscn/local-ai-voice-assistant/issues"
   },
-  "homepage": "https://github.com/dmscn/local-ai-voice-assistant#readme"
+  "homepage": "https://github.com/dmscn/local-ai-voice-assistant#readme",
+  "dependencies": {},
+  "devDependencies": {}
 }

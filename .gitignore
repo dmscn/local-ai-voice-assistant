@@ -1,0 +1,25 @@
+# Electron
+node_modules/
+dist/
+out/
+release/
+*.log
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+
+# DeepSpeech Models (if large)
+models/
+
+# Environment files
+.env
+.env.local
+
+# Editor files
+.vscode/
+.idea/
